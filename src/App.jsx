@@ -1,9 +1,13 @@
-import "./App.css";
+import { Header } from "./components/Heading";
+import { TextInput } from "./components/Textinput";
 
 function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <Header />
+        <TextInput />
+      </div>
     </>
   );
 }
